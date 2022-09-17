@@ -12,7 +12,7 @@ docker rm $(docker ps -a -q)
 
 ### install
 
-linux:
+Linux:
 
 ```
 sudo dnf install -y subversion
@@ -20,7 +20,16 @@ sudo apt install -y subversion
 sudo pacman -S --noconfirm subversion
 ```
 
-macos: `brew install svn`
+Macos: `brew install svn`
 
-widnows: https://tortoisesvn.net/downloads.html
-scoop, winge
+Windows:
+
+- GUI: https://tortoisesvn.net/downloads.html
+- Cli:
+
+```bash
+scoop install tortoisesvn
+winget install -e --id TortoiseSVN.TortoiseSVN
+```
+
+### setup
