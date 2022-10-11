@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+echo -n "nhap x: "
+read x
+
+echo -n "nhap y: "
+read y
+
+echo "x + y = "
+expr $x + $y
