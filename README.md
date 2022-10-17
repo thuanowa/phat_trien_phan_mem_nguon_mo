@@ -14,7 +14,7 @@ docker rm $(docker ps -a -q)
 
 Linux:
 
-```
+```bash
 sudo dnf install -y subversion
 sudo apt install -y subversion
 sudo pacman -S --noconfirm subversion
@@ -33,3 +33,7 @@ winget install -e --id TortoiseSVN.TortoiseSVN
 ```
 
 ### setup
+
+
+### command
+
